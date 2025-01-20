@@ -2,7 +2,7 @@ from http.server import SimpleHTTPRequestHandler, BaseHTTPRequestHandler, HTTPSe
 import json
 
 # Define the server address and port
-host = 'localhost'
+host = '0.0.0.0'
 port = 8000
 
 # Custom handler needed as SimpleHTTPRequestHandler does not handle POST

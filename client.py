@@ -1,7 +1,7 @@
 import requests
 
-# Define the server address
-url = "http://localhost:8000"
+# Define the server address, using the Tailscale IP of the server
+url = "http://100.69.203.85:8000"
 
 # Data to send to the server
 data = {"message": "Hello, server!"}
